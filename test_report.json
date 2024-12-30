@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "key": "d[2]",
+      "errorCode": "INDEX_NOT_FOUND",
+      "description": "인덱스가 존재하지 않습니다. lhs"
+    },
+    {
+      "key": "c.b",
+      "errorCode": "KEY_NOT_FOUND",
+      "description": "키가 존재하지 않습니다. rhs"
+    },
+    {
+      "key": "b",
+      "errorCode": "TYPE_UNMATCHED",
+      "description": "타입이 일치하지 않습니다. lhs: array, rhs: map"
+    },
+    {
+      "key": "a",
+      "errorCode": "VALUE_UNMATCHED",
+      "description": "값이 일치하지 않습니다. lhs: (string)b, rhs: (string)a"
+    }
+  ]
+}

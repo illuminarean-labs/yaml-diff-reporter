@@ -1,0 +1,15 @@
+hello:
+  name:
+    firstName: John
+    lastName: Doe
+  age: 30
+  address: 1234 Elm St.
+  phones:
+    - type: home
+      number: 123-456-7890
+    - type: office
+      number: 098-765-4321
+  cars:
+    - porche
+    - ferrari
+    - lamborghini

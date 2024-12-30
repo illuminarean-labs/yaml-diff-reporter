@@ -1,0 +1,4 @@
+- lhs에서 [d[2]]인덱스가 존재하지 않습니다.
+- rhs에서 [c.b]키가 존재하지 않습니다.
+- [b]키의 타입이 일치하지 않습니다. lhs: array, rhs: map
+- [a]키의 값이 일치하지 않습니다. lhs: (string)b, rhs: (string)a
