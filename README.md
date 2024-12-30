@@ -7,7 +7,7 @@
 # Installation
 
 ```bash
-$ go get -u github.com/YangTaeyoung/yaml-diff-reporter@v1.0.0
+$ go install github.com/YangTaeyoung/yaml-diff-reporter@v1.0.0
 ```
 
 # Modes
