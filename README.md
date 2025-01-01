@@ -101,17 +101,18 @@ key:
 
 아래는 yaml-diff-reporter에서 사용 가능한 플래그 목록입니다. `--help` 플래그를 통해 보다 자세한 정보를 확인할 수도 있습니다.
 
-| Flags                                      | Description                                              | Enums                          | Support Multiple Values | Required |
-|--------------------------------------------|----------------------------------------------------------|--------------------------------|-------------------------|----------|
-| `-M <value>`, <br>`--modes <value>`        | 비교 모드를 지정합니다. (default: `type`, `value`, `key`, `index`) | `type`, `value`,`key`, `index` | ✅                       | ❌        |
-| `-l <value>`, <br>`--lhs-path <value>`     | 비교할 좌측 YAML 파일의 경로를 지정합니다.                               |                                | ❌                       | ✅        |
-| `-r <value>` <br>`--rhs-path <value>`      | 비교할 우측 YAML 파일의 경로를 지정합니다.                               |                                | ❌                       | ✅        |
-| `-la <value>`, <br>`--lhs-alias <value>`   | 좌측 YAML 파일의 별칭을 지정합니다. (default: `lhs`)                  |                                | ❌                       | ❌        |
-| `-ra <value>`, <br>`--rhs-alias <value>`   | 우측 YAML 파일의 별칭을 지정합니다. (default: `rhs`)                  |                                | ❌                       | ❌        |
-| `-ot <value>`, <br>`--output-type <value>` | 리포트를 출력할 방식을 지정합니다. (default: `stdout`)                  | `file`,`stdout`                | ❌                       | ❌        |
-| `-o <value>`, <br>`--output-path <value>`  | 리포트를 저장할 경로를 지정합니다.                                      |                                | ❌                       | ❌        |
-| `-f <value>`, <br>`--format <value>`       | 리포트 포맷을 지정합니다. (default: `json`)                         | `json`, `markdown`, `plain`        | ❌                       | ❌        |
-| `-lang <value>`, <br>`--language <value>`  | 리포트 언어를 지정합니다. (default: `en`)                           | `en`, `ko`                     | ❌                       | ❌        |
+| Flags                                      | Description                                                               | Enums                          | Support Multiple Values | Required |
+|--------------------------------------------|---------------------------------------------------------------------------|--------------------------------|-------------------------|----------|
+| `-M <value>`, <br>`--modes <value>`        | 비교 모드를 지정합니다. (default: `type`, `value`, `key`, `index`)                  | `type`, `value`,`key`, `index` | ✅                       | ❌        |
+| `-l <value>`, <br>`--lhs-path <value>`     | 비교할 좌측 YAML 파일의 경로를 지정합니다.                                                |                                | ❌                       | ✅        |
+| `-r <value>` <br>`--rhs-path <value>`      | 비교할 우측 YAML 파일의 경로를 지정합니다.                                                |                                | ❌                       | ✅        |
+| `-la <value>`, <br>`--lhs-alias <value>`   | 좌측 YAML 파일의 별칭을 지정합니다. (default: `lhs`)                                   |                                | ❌                       | ❌        |
+| `-ra <value>`, <br>`--rhs-alias <value>`   | 우측 YAML 파일의 별칭을 지정합니다. (default: `rhs`)                                   |                                | ❌                       | ❌        |
+| `-ot <value>`, <br>`--output-type <value>` | 리포트를 출력할 방식을 지정합니다. (default: `stdout`)                                   | `file`,`stdout`                | ❌                       | ❌        |
+| `-o <value>`, <br>`--output-path <value>`  | 리포트를 저장할 경로를 지정합니다.                                                       |                                | ❌                       | ❌        |
+| `-f <value>`, <br>`--format <value>`       | 리포트 포맷을 지정합니다. (default: `json`)                                          | `json`, `markdown`, `plain`    | ❌                       | ❌        |
+| `-lang <value>`, <br>`--language <value>`  | 리포트 언어를 지정합니다. (default: `en`)                                            | `en`, `ko`                     | ❌                       | ❌        |
+| `-I <value>`, <br>`--ignore-keys <value>`  | 비교에서 제외할 키를 지정합니다. <br>(배열 키의 경우 인덱스를 접미사에 추가합니다. ex. `hello.some_key[1]` |                                | ✅                       | ❌        |
 
 # Simple Example
 
