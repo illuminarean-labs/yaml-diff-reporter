@@ -110,7 +110,7 @@ key:
 | `-ra <value>`, <br>`--rhs-alias <value>`   | 우측 YAML 파일의 별칭을 지정합니다. (default: `rhs`)                  |                                | ❌                       | ❌        |
 | `-ot <value>`, <br>`--output-type <value>` | 리포트를 출력할 방식을 지정합니다. (default: `stdout`)                  | `file`,`stdout`                | ❌                       | ❌        |
 | `-o <value>`, <br>`--output-path <value>`  | 리포트를 저장할 경로를 지정합니다.                                      |                                | ❌                       | ❌        |
-| `-f <value>`, <br>`--format <value>`       | 리포트 포맷을 지정합니다. (default: `json`)                         | `json`, `yaml`, `plain`        | ❌                       | ❌        |
+| `-f <value>`, <br>`--format <value>`       | 리포트 포맷을 지정합니다. (default: `json`)                         | `json`, `markdown`, `plain`        | ❌                       | ❌        |
 | `-lang <value>`, <br>`--language <value>`  | 리포트 언어를 지정합니다. (default: `en`)                           | `en`, `ko`                     | ❌                       | ❌        |
 
 # Simple Example
