@@ -118,6 +118,8 @@ key:
 tests 디렉토리 내에 테스트를 위한 파일이 있습니다. 다음 명령어를 통해 해당 파일을 비교해보세요!
 
 ```bash
+$ git clone https://github.com/YangTaeyoung/yaml-diff-reporter.git
+$ cd ./yaml-diff-reporter
 $ yaml-diff-reporter --lhs-path ./tests/A.yaml \ 
   --rhs-path ./tests/B.yaml \
   --output-path ./test_report.md \
