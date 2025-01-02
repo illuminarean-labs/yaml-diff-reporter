@@ -4,10 +4,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/YangTaeyoung/yaml-diff-reporter/comparer"
-	"github.com/YangTaeyoung/yaml-diff-reporter/domain"
-	"github.com/YangTaeyoung/yaml-diff-reporter/parser"
-	"github.com/YangTaeyoung/yaml-diff-reporter/reporter"
+	"github.com/illuminarean-labs/yaml-diff-reporter/comparer"
+	"github.com/illuminarean-labs/yaml-diff-reporter/domain"
+	"github.com/illuminarean-labs/yaml-diff-reporter/parser"
+	"github.com/illuminarean-labs/yaml-diff-reporter/reporter"
 
 	"github.com/urfave/cli/v3"
 )

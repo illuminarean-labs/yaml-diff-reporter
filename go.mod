@@ -1,4 +1,4 @@
-module github.com/YangTaeyoung/yaml-diff-reporter
+module github.com/illuminarean-labs/yaml-diff-reporter
 
 go 1.23
 
@@ -12,5 +12,5 @@ require (
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 )

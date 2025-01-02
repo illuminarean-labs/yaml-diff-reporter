@@ -7,7 +7,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/YangTaeyoung/yaml-diff-reporter/domain"
+	"github.com/illuminarean-labs/yaml-diff-reporter/domain"
 
 	"github.com/samber/lo"
 )

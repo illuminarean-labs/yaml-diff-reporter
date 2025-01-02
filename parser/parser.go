@@ -3,7 +3,7 @@ package parser
 import (
 	"os"
 
-	"github.com/YangTaeyoung/yaml-diff-reporter/domain"
+	"github.com/illuminarean-labs/yaml-diff-reporter/domain"
 
 	"gopkg.in/yaml.v3"
 )
